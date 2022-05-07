@@ -4,7 +4,7 @@
     <option name="filePathToZoomLevelMap">
       <map>
         <entry key="..\:/Repository/ANMP/TodoApp/app/src/main/res/layout/activity_main.xml" value="0.13903985507246377" />
-        <entry key="..\:/Repository/ANMP/TodoApp/app/src/main/res/layout/fragment_create_todo.xml" value="0.20697463768115942" />
+        <entry key="..\:/Repository/ANMP/TodoApp/app/src/main/res/layout/fragment_create_todo.xml" value="0.25" />
         <entry key="..\:/Repository/ANMP/TodoApp/app/src/main/res/layout/fragment_todo_list.xml" value="0.33" />
         <entry key="..\:/Repository/ANMP/TodoApp/app/src/main/res/layout/layout_todo_item.xml" value="0.33" />
       </map>
