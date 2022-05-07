@@ -37,6 +37,12 @@ class DetailTodoViewModel(application: Application): AndroidViewModel(applicatio
             db.todoDao().update(uuid, title,notes, priority)
         }
     }
+    fun update(todo:Todo){
+        launch {
+            val db = buildDb(getApplication())
+            db.todoDao().update(todo)
+        }
+    }
 
     override val coroutineContext: CoroutineContext
         get() = job + Dispatchers.Main

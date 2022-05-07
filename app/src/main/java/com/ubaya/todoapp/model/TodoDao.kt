@@ -22,6 +22,9 @@ interface TodoDao {
     @Query("UPDATE todo SET is_done = 1 WHERE uuid =:id ")
     suspend fun updateis_doneTodo(id:Int)
 
-    @Update(entity = Todo::class)
-    suspend fun update(vararg todo:Todo)
+    @Update
+    suspend fun update(todo:Todo)
+//
+//    @Update(entity = Todo::class)
+//    suspend fun update(vararg todo:Todo)
 }
